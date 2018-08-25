@@ -26,6 +26,7 @@ markdown: kramdown
 theme: minima
 plugins:
     - jekyll-feed
+    - jekyll-seo-tag
 
 highlighter: rouge
 paginate_path: "/page:num"
@@ -35,8 +36,9 @@ images: '/assets/img'
 permalink: /:title/
 paginate: 5
 github: http://github.com/yavuz
-
-
+show_excerpts: true # set to true to show excerpts on the homepage
+disqus:
+    shortname: yavuz-github-io.
 
 # exclude from processing.
 # The following items will not be processed, by default. Create a custom list

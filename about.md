@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Hakkımda
+title: hakkımda
 permalink: /hakkimda/
 ---
 
-Kişisel Web Site [yavuzyildirim.com](https://yavuzyildirim.com/)
+kişisel web site [yavuzyildirim.com](https://yavuzyildirim.com/)
 
 #php #swift #linux #python #machine learning

@@ -9,7 +9,16 @@
 }
 
 .home-page-desc {
-    font-size:14px;
     font-style:italic;
     color:#757575;
+}
+
+.site-title:hover {
+    text-decoration: none !important;
+    color:#2a7ae2;
+}
+
+.page-link:hover {
+    text-decoration: none !important;
+    color:#2a7ae2;
 }
