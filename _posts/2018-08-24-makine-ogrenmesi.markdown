@@ -3,6 +3,8 @@ layout: post
 title:  "Makine Öğrenmesi"
 date:   2018-08-24 23:40:44 +0300
 categories: makine öğrenmesi
+description: Makina öğrenmesi notları
+image: Deep_Learning_Icons_R5_PNG.jpg
 ---
 Makine öğrenmesi bir çok tanımı olabilir. Kısaca tanımlamak gerekirse makineye verdiğimiz verilerin bazı algoritmalardan geçerek anlamlı verilerin oluşturulması diyebilirim.
 
@@ -16,7 +18,7 @@ Bu yapay zekanın bir adımı varsayabiliriz. Ancak yapay zekanın üstüne çal
 
 Makine öğrenmesi aslında yapay zekanın bir alt dalıdır. Aşağıdaki grafikte zamana göre ilerleyişini görebilirsiniz.
 
-![](/images/Deep_Learning_Icons_R5_PNG.jpg)
+![](/assets/img/Deep_Learning_Icons_R5_PNG.jpg)
 
 **Makine öğrenmesi temel olarak bazı grublara ayrılır.**
 

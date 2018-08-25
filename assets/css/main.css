@@ -1,0 +1,15 @@
+.home-page-image {
+  max-width: 80%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.home-page-title:hover {
+    text-decoration: none;
+}
+
+.home-page-desc {
+    font-size:14px;
+    font-style:italic;
+    color:#757575;
+}

@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: yavuz's blog
-email: yavuz@yapps.co
-description: 
-baseurl: "/yavuz.github.io" # the subpath of your site, e.g. /blog
+title: yavuz blog
+#email: yavuz@yapps.co
+description: öğrenirken aldığım notlar
+#baseurl: "/" # the subpath of your site, e.g. /blog
 url: "yavuz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yavuzyildirim
 github_username:  yavuz
@@ -25,12 +25,24 @@ github_username:  yavuz
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
+    - jekyll-feed
+
+highlighter: rouge
+paginate_path: "/page:num"
+
+google_analytics: UA-44045877-3
+images: '/assets/img'
+permalink: /:title/
+paginate: 5
+github: http://github.com/yavuz
+
+
 
 # exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-exclude: ['README.md']
+exclude:
+    - README.md
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
