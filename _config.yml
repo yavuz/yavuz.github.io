@@ -17,7 +17,7 @@ title: yavuz blog
 #email: yavuz@yapps.co
 description: öğrenirken aldığım notlar
 #baseurl: "/" # the subpath of your site, e.g. /blog
-url: "yavuz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://yavuz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yavuzyildirim
 github_username:  yavuz
 
