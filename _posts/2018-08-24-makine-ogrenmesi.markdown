@@ -19,11 +19,11 @@ Bu yapay zekanın bir adımı varsayabiliriz. Ancak yapay zekanın üstüne çal
 
 Makine öğrenmesi aslında yapay zekanın bir alt dalıdır. Aşağıdaki grafikte zamana göre ilerleyişini görebilirsiniz.
 
-![](/assets/img/Deep_Learning_Icons_R5_PNG.jpg)
+![]({{ site.images }}/Deep_Learning_Icons_R5_PNG.jpg){: .center-image }
 
 **Makine öğrenmesi temel olarak bazı grublara ayrılır.**
 
-* Denetimli öğrenme (Supervised Learning)
+* [Denetimli öğrenme (Supervised Learning)]({{ site.url }}/denetimli-ogrenme/)
 * Denetimsiz öğrenme (Unsupervised Learning)
 * Takviyeli öğrenme (Reinforcement Learning)
 

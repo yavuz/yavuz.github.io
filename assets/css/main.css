@@ -22,3 +22,12 @@
     text-decoration: none !important;
     color:#2a7ae2;
 }
+
+.center-image {
+    margin: 0 auto;
+    display: block;
+}
+
+.rounded-image {
+    border-radius: 5px;
+}
