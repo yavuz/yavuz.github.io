@@ -5,7 +5,7 @@ date:   2018-08-27 00:04:00 +0300
 categories: makine öğrenmesi
 excerpt: Regresyon (Regression) ve Sınıflandırma (Classification)
 image: classification_regression1.jpg
-tags: makineogrenmesi/denetimliogrenme
+tags: makineogrenmesi denetimliogrenme
 ---
 Makine öğrenmesi daha önce bahsettiğimiz gibi elimizdeki veriyi kullanarak anlamlı bir veri çıkarmak diyebiliriz.
 

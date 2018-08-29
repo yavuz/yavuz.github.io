@@ -6,6 +6,7 @@ categories: makine öğrenmesi
 excerpt: Makina öğrenmesi notları
 image: Deep_Learning_Icons_R5_PNG.jpg
 tags: makineogrenmesi
+twittersummary: summary_large_image
 ---
 Makine öğrenmesi bir çok tanımı olabilir. Kısaca tanımlamak gerekirse makineye verdiğimiz verilerin bazı algoritmalardan geçerek anlamlı verilerin oluşturulması diyebilirim.
 

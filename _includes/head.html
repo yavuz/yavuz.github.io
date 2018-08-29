@@ -10,7 +10,11 @@
     {%- include google-analytics.html -%}
   {%- endif -%}
 
+    {% if page.twittersummary=='summary_large_image' %}
+    <meta name="twitter:card" content="summary_large_image">
+    {% else %}
     <meta name="twitter:card" content="summary">
+    {% endif %}
     <meta name="twitter:site" content="@yavuz">
     <meta name="twitter:creator" content="@yavuz">
     {% if page.title %}
