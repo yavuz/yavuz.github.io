@@ -22,7 +22,7 @@ layout: default
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          <span class="home-page-desc">{{ post.excerpt }}</span>
+          <span class="home-page-desc" style="clear:both;width:100%;float:left;">{{ post.excerpt }}</span>
         {%- endif -%}
         {% if post.image %}
           <img class="home-page-image" src="{{ site.github.url }}/assets/img/{{ post.image }}">

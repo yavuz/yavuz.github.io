@@ -42,7 +42,7 @@ Grafik düzlemin görüldüğü üzere elimizde iki grup veri var ve biz bunlar�
 
 SVM algoritması internette araştırıldığında başta biyoloji alanında, görüntü işlemede ve bir çok bilim dalındaki verilerin sınıflandırılmasında uygulandığı görülüyor.
 
-### kaynaklar
+#### kaynaklar
 * [Example of linear support vector regression. - Download Scientific Diagram](https://www.researchgate.net/figure/Example-of-linear-support-vector-regression_fig1_323588842)
 * [Mapping a non-linear SVR into feature space and its ε -insensitive loss - Download Scientific Diagram](https://www.researchgate.net/figure/Mapping-a-non-linear-SVR-into-feature-space-and-its-e-insensitive-loss-setting-55_fig1_267275657)
 * [Support Vector Regression (SVR) using linear and non-linear kernels — scikit-learn 0.19.2 documentation](http://scikit-learn.org/stable/auto_examples/svm/plot_svm_regression.html)
