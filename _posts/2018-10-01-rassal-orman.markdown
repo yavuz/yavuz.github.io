@@ -10,13 +10,13 @@ twittersummary: summary_large_image
 ---
 [Karar ağacı]({{ site.url }}/karar-agaclari/) algoritmasını hatırlarsak bir tane ağaç yapısı oluşturuyorduk. Daha sonra ağaç yapısı için bir kök ve değişkenlerin değerlerine göre dallar oluşturulup sonuca ulaşmaya çalışıyorduk. Elimizde olan veri setindeki değerleri random olarak kullanarak, bu ağaçlardan _n_ tane oluşturuyorsak buna rassal orman algoritması deniyor. Yani rasgele değerlere göre oluşturulmuş dalları olan ağaçlar bütünüdür. Buna da haliyle orman deniyor. Hem sınıflandırma, hem de regresyon için kullanılabilinir. Aşağıdaki resim biraz daha açıklayıcı olabilir.
 
-![Random Forest]({{ site.images }}/random_forest1.jpg)
+![Random Forest]({{ site.images }}/random_forest1.jpg){: .center-image }
 
 Algoritma o kadar çok ağaç yapısı oluşturur ki, çıkan sonuçlardan en iyi sonuçları elde etmeye yarar. Çıkan sonuçlar içinde oylama yapılır ve doğru dallar oluşturulur.
 
 Rassal orman algoritması **topluluk öğrenmesi (ensemble learning)** metodlarından biri olarak geçer. Farklı algoritmaların sonucunda en uyumlu sonucu üretmek gibi düşünebilirsiniz.
 
-![Random Forest]({{ site.images }}/random_forest2.jpg)
+![Random Forest]({{ site.images }}/random_forest2.jpg){: .center-image }
 
 Yukarıda görüldüğü gibi n tane üretilen ağaçların oluşturduğu ormanın ağaçlarındaki en uygun yollar izlenerek en verimli sonuçlar elde edilir. Bunu daha büyük bir ağaç algoritmasına benzetebilirsiniz.
 
