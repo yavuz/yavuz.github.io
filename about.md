@@ -6,4 +6,4 @@ permalink: /hakkimda/
 
 kişisel web site [yavuzyildirim.com](https://yavuzyildirim.com/)
 
-#php #swift #linux #python #machine_learning
+#php #swift #linux #python #machine_learning #electronic
