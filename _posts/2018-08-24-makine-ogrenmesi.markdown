@@ -32,7 +32,7 @@ Makine öğrenmesi aslında yapay zekanın bir alt dalıdır. Aşağıdaki grafi
 * Doç. Dr. Şadi Evren Şeker’in şu an makine öğrenmesi hakkında teorik ve uygulamalı olarak başarılı iki kursu var. Özellikle eğer kod yazmadan örnekler yapmak istiyorsanız Knime uygulaması kursu ideal diyebilirim.
 	* [Her Seviyeye Uygun Uçtan Uca Veri Bilimi, Knime ile - Udemy](https://www.udemy.com/veribilimi/)
 	* [Python ile Makine Öğrenmesi - Udemy](https://www.udemy.com/makine-ogrenmesi/)
-* Kaan Can Yılmaz adına çok başarılı bir kurs serisi var. 7 adet kurs yapılacak ve şu an 4. kursu servis edilmiş. Bütün kurslarını izledim. Kurslar yine teorik ve python ile uygulama ağırlıklı. Bütün kurslarını tavsiye ederim. Makine öğrenmesi hakkından kursu;
+* Datai Team adına çok başarılı bir kurs serisi var. Seride 7 adet kurs var. Kurslar yine teorik ve python ile uygulama ağırlıklı. Bütün kurslarını tavsiye ederim. Makine öğrenmesi hakkından kursu;
 	* [Machine Learning ve Python: A’dan Z’ye Makine Öğrenmesi (4) - Udemy](https://www.udemy.com/machine-learning-ve-python-adan-zye-makine-ogrenmesi-4/)
 
 
