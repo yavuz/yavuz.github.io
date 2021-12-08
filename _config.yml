@@ -27,23 +27,16 @@ theme: minima
 plugins:
     - jekyll-feed
     - jekyll-seo-tag
-    - jekyll-paginate-v2
+    - jekyll-paginate
 
 highlighter: rouge
-paginate_path: "/page:num"
+# paginate_path: "/page:num"
 
 google_analytics: UA-44045877-3
 images: '/assets/img'
 permalink: /:title/
-pagination:
-  enabled: true
-  per_page: 10
-  paginator_path: "home/page:num"
-  extension: html
-  # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
-  sort_field: 'date'
-  # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
-  sort_reverse: true
+paginate: 10
+paginate_path: "/page:num/"
 github: http://github.com/yavuz
 show_excerpts: true # set to true to show excerpts on the homepage
 disqus:
