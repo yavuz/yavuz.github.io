@@ -31,3 +31,8 @@
 .rounded-image {
     border-radius: 5px;
 }
+
+body {
+    background-color: #F9F7ED;
+    font-size: 18px;
+}
