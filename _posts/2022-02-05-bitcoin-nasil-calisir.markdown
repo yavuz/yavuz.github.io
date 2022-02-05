@@ -94,4 +94,4 @@ Bu işlemin sonucunda tek bir hash adresi data bölümüne yazdırılıyor. Şim
 
 Yukardaki demoya görüleceğe üzere bir önceki bloğunda hash adresi **prev** yazan bölümde gözüküyor. Şimdi madencilerin tam olarak ne yaptığını anlayacağız. Madencilere verilen görev şudur. Bu bloğu şifreleyip mühürleyeceğiz. Şifrelediğimde ortaya çıkacak hash adresinde örneğin 6 tane sıfır ile başlamalı. Bunu yapabilmek için şifrelenecek bütün veri ile **nonce** değeri şifrelendiğinde bunu yapabilirsin. Madenci bütün veriyi alır daha sonra nonce değerini türeterek hash değerini bulmaya çalışır. Eğer istenilen hash değerinin önündeki sıfır sayısı ne kadar çoksa bu değeri yakalamak o kadar zordur. Buna madencilerin zorluk derecesi denir. Madenciler bu rakamı bulduktan sonra en yakındaki düğüme ben bunu buldum diye bilgi verir. Düğüm bunu onayladıktan sonra en yakınındaki düğüme bilgi verir ve bütün ağ bu bilgiyi kabul edip yeni bloğu yazarlar. İşte bir blok böyle yazılır.
 
-**Not:** Yazı güncellenmeye devam edecektir.
+**Not:** Yazı güncellenmeye devam edilecektir.
