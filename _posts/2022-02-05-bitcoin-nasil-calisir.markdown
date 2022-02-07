@@ -4,7 +4,7 @@ title:  "Bitcoin Nasıl Çalışır?"
 date:   2022-02-05 02:40:44 +0300
 categories: blockchain
 excerpt: Blockchain Notları
-image: bitcoin_blocks_1.jpg
+image: bitcoin_blockchain_2.jpg
 tags: blockchain, bitcoin
 twittersummary: summary_large_image
 ---
@@ -20,7 +20,9 @@ Fikir Ekim 2008’de ortaya çıktan hemen sonra Ocak 2009’da çalışır ilk 
 
 ### Bitcoin Ağı
 
-Bitcoin aslında bazı çalışma prensiplerine sahip merkeziyetsiz bir blockchain ağıdır. Blockchain kriptografi kullanılarak yazılan blokların birbiri ile ilişkisinin olduğu dağıtık bir defter veya veritabanıdır diyebiliriz. Birbiri ile iliskili bloklar sayesinde cifte harcama(double spending) sorunun önüne geçmeye çalışılmıştır.
+![Blocks]({{ site.images }}/bitcoin_blockchain_2.jpg){: .center-image }
+
+Bitcoin aslında bazı çalışma prensiplerine sahip merkeziyetsiz bir blockchain ağıdır. Blockchain kriptografi kullanılarak yazılan blokların birbiri ile ilişkisinin olduğu dağıtık bir defter veya veritabanıdır diyebiliriz. Birbiri ile ilişkili bloklar sayesinde çifte harcama(double spending) sorunun önüne geçmeye çalışılmıştır.
 
 Bitcoin ağındaki bütün işlemler bloklar haline getirilir ve daha sonra onaylanarak yazılır. Yazılabilmesi için ağdaki düğümlere ve madencilere ihtiyaç duyulmaktadır. Her blok birbiri ile ilişkilidir.
 
