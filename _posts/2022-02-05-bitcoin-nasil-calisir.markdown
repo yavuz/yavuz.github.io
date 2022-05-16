@@ -4,7 +4,7 @@ title:  "Bitcoin Nasıl Çalışır?"
 date:   2022-02-05 02:40:44 +0300
 categories: blockchain
 excerpt: Blockchain Notları
-image: assets/img/bitcoin_blockchain_2.jpg
+image: bitcoin_blockchain_2.jpg
 tags: blockchain, bitcoin
 twittersummary: summary_large_image
 ---
