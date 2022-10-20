@@ -16,7 +16,7 @@ twittersummary: summary_large_image
 - İngilizce ([https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf))
 - Türkçe ([https://bctr.org/wp-content/uploads/2019/03/türkçe_bitcoin.pdf](https://bctr.org/wp-content/uploads/2019/03/t%C3%BCrk%C3%A7e_bitcoin.pdf))
 
-Fikir Ekim 2008’de ortaya çıktan hemen sonra Ocak 2009’da çalışır ilk versiyonu yayınlandı. İlk versiyon yayınlandıktan sonra yazılan ilk bloğa “şansölye bankalar için ikinci kurtarma paketinin eşiğinde” gibi not düşüldüğü gözüküyor. Bitcoin toplam arzı 21 milyondur. Bütün bitcoin miktarı şu anlık dolaşımda değildir.
+Fikir Ekim 2008’de ortaya çıktıktan hemen sonra Ocak 2009’da çalışır ilk versiyonu yayınlandı. İlk versiyon yayınlandıktan sonra yazılan ilk bloğa “şansölye bankalar için ikinci kurtarma paketinin eşiğinde” gibi not düşüldüğü gözüküyor. Bitcoin toplam arzı 21 milyondur. Bütün bitcoin miktarı şu anlık dolaşımda değildir.
 
 ### Bitcoin Ağı
 
@@ -92,7 +92,7 @@ Yukardaki görüntüde gözüktüğü üzere her bölüm bir blok oluyor. Data y
 
 ![Merkle_Root]({{ site.images }}/bitcoin_merkle_root.png){: .center-image }
 
-Bu işlemin sonucunda tek bir hash adresi data bölümüne yazdırılıyor. Şimdi dikkat edilmesi gereken noktalarda biri şudur. Her yeni blok bir önceki blokun hash adresini alarak bloğu kapatır. Bu özellik yüzünden blockzincir denilir. Eğer geçmiş herhangi bir bloğun verisi değiştirilirse önündeki bütün verilerin hashleri bozulmuş olacaktır.
+Bu işlemin sonucunda tek bir hash adresi data bölümüne yazdırılıyor. Şimdi dikkat edilmesi gereken noktalarda biri şudur. Her yeni blok bir önceki blokun hash adresini alarak bloğu kapatır. Bu özellik yüzünden blokzincir denilir. Eğer geçmiş herhangi bir bloğun verisi değiştirilirse önündeki bütün verilerin hashleri bozulmuş olacaktır.
 
 Yukardaki demoya görüleceğe üzere bir önceki bloğunda hash adresi **prev** yazan bölümde gözüküyor. Şimdi madencilerin tam olarak ne yaptığını anlayacağız. Madencilere verilen görev şudur. Bu bloğu şifreleyip mühürleyeceğiz. Şifrelediğimde ortaya çıkacak hash adresinde örneğin 6 tane sıfır ile başlamalı. Bunu yapabilmek için şifrelenecek bütün veri ile **nonce** değeri şifrelendiğinde bunu yapabilirsin. Madenci bütün veriyi alır daha sonra nonce değerini türeterek hash değerini bulmaya çalışır. Eğer istenilen hash değerinin önündeki sıfır sayısı ne kadar çoksa bu değeri yakalamak o kadar zordur. Buna madencilerin zorluk derecesi denir. Madenciler bu rakamı bulduktan sonra en yakındaki düğüme ben bunu buldum diye bilgi verir. Düğüm bunu onayladıktan sonra en yakınındaki düğüme bilgi verir ve bütün ağ bu bilgiyi kabul edip yeni bloğu yazarlar. İşte bir blok böyle yazılır.
 
