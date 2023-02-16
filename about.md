@@ -6,4 +6,6 @@ permalink: /hakkimda/
 
 kişisel web site [yavuzyildirim.com](https://yavuzyildirim.com/)
 
-#php #swift #linux #python #machine_learning #electronic #javascript(node, react, vue, ts etc.)
+#php #swift #linux #python #machine_learning #electronic 
+
+#javascript(node, react, vue, ts etc.)
