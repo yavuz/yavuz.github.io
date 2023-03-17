@@ -4,7 +4,9 @@ title: hakkımda
 permalink: /hakkimda/
 ---
 
-kişisel web site [yavuzyildirim.com](https://yavuzyildirim.com/)
+kişisel web sayfası [yavuzyildirim.com](https://yavuzyildirim.com/)
+
+web [listln](https://listln.com/)
 
 #php #swift #linux #python #machine_learning #electronic 
 
