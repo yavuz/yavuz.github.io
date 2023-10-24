@@ -20,6 +20,7 @@ description: öğrenirken aldığım notlar
 url: "http://yavuz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yavuzyildirim
 github_username:  yavuz
+listln_username: yavuz
 
 # Build settings
 markdown: kramdown
