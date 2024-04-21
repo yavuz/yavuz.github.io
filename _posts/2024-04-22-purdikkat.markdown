@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Pür Dikkat: Odaklanma Becerisini Nasıl Yitirdik, Nasıl Geri Kazanabiliriz?"
+title:  "Pürdikkat: Odaklanma Becerisini Nasıl Yitirdik, Nasıl Geri Kazanabiliriz?"
 date:   2024-04-22 02:40:44 +0300
 categories: books
-excerpt: Pür Dikkat Odaklanma Becerisini Nasıl Yitirdik, Nasıl Geri Kazanabiliriz?
+excerpt: Pürdikkat Odaklanma Becerisini Nasıl Yitirdik, Nasıl Geri Kazanabiliriz?
 image: purdikkat_kitap.png
 tags: books
 twittersummary: summary_large_image
@@ -11,7 +11,7 @@ twittersummary: summary_large_image
 
 # Pürdikkat
 
-**Pür Dikkat: Odaklanma Becerisini Nasıl Yitirdik, Nasıl Geri Kazanabiliriz?**
+**Pürdikkat: Odaklanma Becerisini Nasıl Yitirdik, Nasıl Geri Kazanabiliriz?**
 
 (**Deep Work: Rules for Focused Success in a Distracted World**)
 
