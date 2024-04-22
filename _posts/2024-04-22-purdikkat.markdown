@@ -3,8 +3,8 @@ layout: post
 title:  "Pürdikkat: Odaklanma Becerisini Nasıl Yitirdik, Nasıl Geri Kazanabiliriz?"
 date:   2024-04-22 02:40:44 +0300
 categories: books
-excerpt: Pürdikkat Odaklanma Becerisini Nasıl Yitirdik, Nasıl Geri Kazanabiliriz?
-image: purdikkat_kitap.png
+excerpt: "Deep Work: Rules for Focused Success in a Distracted World"
+image: purdikkat_kitap.jpeg
 tags: books
 twittersummary: summary_large_image
 ---
@@ -15,7 +15,7 @@ twittersummary: summary_large_image
 
 (**Deep Work: Rules for Focused Success in a Distracted World**)
 
-({{ site.images }}/purdikkat_kitap.png){: .center-image }
+![Book]({{ site.images }}/purdikkat_kitap.jpeg){: .center-image }
 
 Geçenlerde ofiste sessiz sedasız çalışan arkadaşıma bir şey soracakken yoğun çalıştığını görünce “deep work mü yapıyorsun?” diye seslendim(evet başka bir soru sormuş oldum). Tabi bu tabir hakkında bir bilgim yoktu. Daha sonra bunu araştırınca böyle çalışma türü olduğunu öğrendim. Bunun hakkında bir şeyler okumalıydım ve *[“Pürdikkat”](https://www.goodreads.com/book/show/25677400-p-rdikkat)* kitabını buldum. Kitabı okuyup beğendim ve kısa bir yazı yazmak istedim.
 
@@ -31,7 +31,7 @@ Masa başı işlerde çalışanlar için e-postalara bakmak herkes için bir zor
 
 ### Açık Ofis
 
-({{ site.images }}/purdikkat_ofis.png){: .center-image }
+![Ofis]({{ site.images }}/purdikkat_ofis.jpg){: .center-image }
 
 Artık neredeyse kapalı ofislerin kalmadığı bir dünya da yaşıyoruz. Açıkcası benim de tercihim her zaman açık ofis olmuştur. Sebeplerinden biri çalışanlar arasında iletişimin daha kolay olduğunda verimin arttığını duymuştum. Açık ofislerin amaçlarından biri de farklı işlerle uğraşan insanların birbiriyle iletişime geçerek inovasyona davetiye çıkarmak olduğu söyleniyor. Ayrıca kapalı ofisler bana sanki dünyaya kapanmış ve sıkıcı geliyordu. Ama birazda ihtiyacımız olan bu gözüküyor. Kapalı ofis ile insanların daha az gürültü ve dikkat dağıtıcı unsurların olmadığı için odaklanmayı kolaylaştıran bir yapısı var.
 
