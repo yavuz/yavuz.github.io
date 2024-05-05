@@ -25,7 +25,7 @@ Dikkat süremizin neredeyse saniyelere düştüğü bu zamanda vaktimizi boşa h
 
 ### Dikkat Dağıtıcı Unsurlardan Kaçmak
 
-Kitabın girişinde bazı yazar ve akademisyenlerin kendilerini bir süre bir yere kapanarak, bölünmediğinden ve aşırı üretkenlikleri anlatılmış. İster kitap yazarı olun, ister yazılım mühendisi ortaya çıkarılması gereken güzel bir iş için yoğun bir çalışma şart olduğunu düşünüyorum. 
+Kitabın girişinde, yazar ve akademisyenlerin, bir süreliğine dış dünyayla bağlantılarını kopararak ve dikkati dağıtacak unsurlardan uzaklaşarak, son derece verimli bir çalışma ortamı yarattıkları ve bu sayede olağanüstü bir üretkenlik sergiledikleri belirtiliyor. İster kitap yazarı olun, ister yazılım mühendisi ortaya çıkarılması gereken güzel bir iş için yoğun bir çalışma şart olduğunu düşünüyorum. 
 
 Masa başı işlerde çalışanlar için e-postalara bakmak herkes için bir zorunluluk. Ancak e-postalara bakmak, internette biraz sörf derken zaten yapacağımız işe ayırdığımız dikkatinizi toplamak çok zor oluyor. Hepimizin deneyimlediği şeylerden biri “bir bakıp çıkacağım” dediğimiz sosyal medya sitelerinde kaybolan saatlerimizdir. Bu gibi dikkat dağıtıcı unsurlar ile yapacağımız iş hem uzuyor, hem de ortaya güzel bir iş çıkmamış oluyor.
 
