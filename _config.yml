@@ -21,6 +21,7 @@ url: "http://yavuz.github.io" # the base hostname & protocol for your site, e.g.
 twitter_username: yavuzyildirim
 github_username:  yavuz
 listln_username: yavuz
+substack_username: yavuzyildirim
 
 # Build settings
 markdown: kramdown
