@@ -17,7 +17,7 @@ title: yavuz blog
 #email: yavuz@yapps.co
 description: öğrenirken aldığım notlar
 #baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://yavuz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://yavuz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yavuzyildirim
 github_username:  yavuz
 listln_username: yavuz
@@ -39,7 +39,7 @@ images: '/assets/img'
 permalink: /:title/
 paginate: 10
 paginate_path: "/page:num/"
-github: http://github.com/yavuz
+github: https://github.com/yavuz
 show_excerpts: true # set to true to show excerpts on the homepage
 disqus:
     shortname: yavuz-github-io
