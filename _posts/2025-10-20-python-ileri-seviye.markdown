@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Python'da İleri Seviye Kavramlar"
-date:   2024-04-22 02:40:44 +0300
+date:   2025-10-20 02:40:44 +0300
 categories: python
 excerpt: "Python'da OOP, modüller, hata yönetimi ve sanal ortamlar gibi ileri seviye konuların detaylı incelemesi"
 image: python_programming.jpg
