@@ -1,0 +1,143 @@
+---
+layout: post
+title:  "Agile Metodolojiler: Scrum ve Kanban ile Verimli Çalışma"
+date:   2025-10-25 14:00:44 +0300
+categories: project-management agile
+excerpt: "Scrum ve Kanban metodolojileriyle ekip verimliliğini artırmanın modern yolları ve pratikte nasıl uygulanacağı."
+image: agile-metodolojiler.jpg
+tags: agile scrum kanban project-management software-development team productivity
+twittersummary: summary_large_image
+---
+
+![Cover]({{ site.images }}/agile-metodolojiler.jpg)
+
+### Scrum ve Kanban ile ekiplerin verimliliğini artırmanın modern yolları
+
+
+## Giriş
+
+Teknoloji hızla gelişiyor. Bir yazılım projesi başlarken müşterinin aklındaki fikir, 3 ay sonra tamamen değişebiliyor. İşte tam da bu nedenle klasik proje yönetimi yaklaşımları (örneğin Waterfall) artık yeterli olmuyor. Bu noktada **Agile (Çevik)** metodolojiler devreye giriyor.
+
+---
+
+## 1. Agile Nedir?
+
+Agile, değişime hızlı uyum sağlamak için geliştirilmiş bir proje yönetim yaklaşımıdır.  
+Ana felsefesi:
+
+> “Kapsamlı dokümantasyondan ziyade çalışan yazılım, sözleşmeden ziyade müşteri iş birliği, plana körü körüne uymaktan ziyade değişime uyum.”
+
+Yani, her şeyin başında plan yapıp aylarca o plana bağlı kalmak yerine, küçük adımlarla ilerlemek, denemek, hataları erken fark etmek ve sürekli iyileştirmektir.
+
+**Gerçek hayattan örnek:**  
+Bir mobil uygulama geliştiriyorsun diyelim. Başta sadece “yemek siparişi” özelliği planladın. Ama ilk sürümden sonra kullanıcılar “puanlama sistemi” istiyor. Agile yaklaşımında hemen bu geri bildirimi alıp bir sonraki sprintte ekleyebilirsin. Klasik yöntemde ise bu değişiklik aylar sonraya kalırdı.
+
+---
+
+## 2. Scrum Nedir?
+
+Scrum, Agile prensiplerini uygulamanın en popüler yollarından biridir.  
+Çalışma süreci “Sprint” adı verilen kısa döngülere ayrılır (genellikle 2-4 hafta).  
+Her sprint’in sonunda çalışır durumda bir ürün ortaya çıkar.
+
+### Scrum’ın Temel Rolleri
+
+- **Product Owner (Ürün Sahibi):** Ne yapılacağını belirler. Öncelikleri belirleyen kişidir.
+- **Scrum Master:** Takımın önündeki engelleri kaldırır, sürecin düzgün işlemesini sağlar.
+- **Development Team:** Ürünü geliştirir, kod yazar, test yapar, teslim eder.
+
+### Scrum Akışı Nasıl İşler?
+
+1. **Product Backlog:** Tüm istek ve fikirlerin listesi.
+2. **Sprint Planning:** Ekip, bu sprint’te hangi işleri yapacağını seçer.
+3. **Daily Stand-Up:** Her gün 15 dakikalık kısa toplantı (Ne yaptım? Ne yapacağım? Engelim var mı?)
+4. **Sprint Review & Retrospective:** Sprint sonunda yapılan değerlendirme toplantıları.
+
+**Örnek:**  
+Bir e-ticaret sitesinde çalışan ekip, “Sepete ekle” özelliğini geliştirecek.
+
+- Sprint planlama toplantısında bu görev seçilir.
+- 2 hafta boyunca ekip bu işe odaklanır.
+- Sprint sonunda bu özellik test edilir ve yayına alınır.
+- Toplantıda neler iyi gitti, neler geliştirilir konuşulur.
+
+**Avantajı:** Planlı ama esnek bir yapı sağlar.  
+**Dezavantajı:** Fazla toplantı ve rol karmaşası küçük takımlarda yorucu olabilir.
+
+---
+
+## 3. Kanban Nedir?
+
+Kanban, Japonya’daki Toyota üretim sisteminden doğmuştur.  
+Kelime anlamı “görsel kart” demektir.  
+Scrum gibi sprintlerle çalışmaz; işler sürekli akış halindedir.
+
+### Kanban Panosu
+
+En sade haliyle üç sütundan oluşur:
+
+- **To Do (Yapılacaklar)**
+- **In Progress (Yapılıyor)**
+- **Done (Tamamlandı)**
+
+Her görev bir kart olarak tahtada gösterilir (fiziksel tahta veya Trello, Jira gibi dijital araçlarda).  
+Amaç, işin nerede takıldığını anında görebilmek.
+
+**Örnek:**  
+Bir müşteri destek ekibi düşün.  
+Her gelen destek talebi “To Do”ya eklenir.  
+Bir temsilci ilgilenmeye başladığında “In Progress”e taşır.  
+Sorun çözüldüğünde “Done” sütununa gider.  
+Bu sayede ekip yöneticisi hangi talebin nerede olduğunu anında görebilir.
+
+### WIP (Work In Progress) Limitleri
+
+Kanban’ın en güçlü yanı budur.  
+Örneğin “In Progress” sütununa en fazla 3 kart konabilir.  
+Bu sayede ekip fazla iş almaz, her işi bitirip yenisine geçer.
+
+**Avantajı:**
+
+- Esnektir, her an yeni iş eklenebilir.
+- Sürekli teslimata uygundur.
+
+**Dezavantajı:**
+
+- Sprint olmadığı için “hedef” duygusu zayıf olabilir.
+- Disiplinli olmayan ekiplerde işler birikir.
+
+---
+
+## 4. Scrum vs Kanban Karşılaştırması
+
+![Scrum vs Kanban Karşılaştırması]({{ site.images }}/agile-compare.png)
+_Karşılaştırma grafiği: Scrum ve Kanban'ın temel farkları ve kullanım senaryoları._
+
+**Örnek karşılaştırma:**  
+Bir mobil uygulama ekibi düşün:
+
+- Yeni özellikler geliştiriyorsa → **Scrum** idealdir.
+- Mevcut hataları sürekli düzeltmekle uğraşıyorsa → **Kanban** daha uygundur.
+
+---
+
+## 5. Hangisini Seçmeli?
+
+- **Scrum:** Belirli hedefleri olan, yeni ürün veya özellik geliştiren ekipler için.  
+  Örnek: “Yorum analizi modülünü 3 sprintte bitirelim.”
+- **Kanban:** Sürekli bakım, destek veya operasyon ekipleri için.  
+  Örnek: “Her gün gelen kullanıcı taleplerini sırayla çözelim.”
+
+Bazı ekipler ikisini birleştirir: “**Scrumban**” adında hibrit sistemler de kullanılır.  
+Yani sprint’lerle çalışırlar ama Kanban panosuyla görselleştirirler.
+
+---
+
+## Sonuç
+
+Agile, sadece bir proje yönetim yöntemi değil, bir **bakış açısıdır.** Amaç; hızlı geri bildirim almak, hataları erken görmek ve müşteriye sürekli değer sunmaktır.  
+Scrum veya Kanban fark etmez; önemli olan ekibin kültürüne ve iş yapısına uygun yöntemi seçmektir.
+
+> “Mükemmel sistem, değişime en hızlı uyum sağlayan sistemdir.”
+
+---
