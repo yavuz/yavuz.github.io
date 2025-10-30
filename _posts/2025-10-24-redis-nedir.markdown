@@ -11,8 +11,6 @@ twittersummary: summary_large_image
 
 ![Cover]({{ site.images }}/redis-nedir.jpg)
 
-# Redis Nedir? Hızlı, Esnek ve Çok Yönlü Bir Veri Deposu
-
 ### Önbelleklemeden Çok Daha Fazlası: Modern Uygulamalarda Redis'in Yeri
 
 Günümüzün dijital dünyasında kullanıcıların beklentisi tektir: **hız**. Yavaş açılan bir web sitesi, geciken bir mobil uygulama veya bekleme süresi uzun bir işlem, kullanıcıları kaybetmek için yeterlidir. Geleneksel disk tabanlı veritabanları (MySQL, PostgreSQL vb.) veriyi güvenli bir şekilde saklamakta harikadır, ancak saniyenin altındaki yanıt süreleri için her zaman en verimli çözüm olmayabilirler.
