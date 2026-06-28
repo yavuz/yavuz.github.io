@@ -1,7 +1,10 @@
 <div class="subscribe-box">
   <h3 style="margin-bottom: 0.5rem; font-family: var(--font-display);">E-posta Bültenine Abone Olun</h3>
   <p style="color: var(--muted-color); font-size: 0.95rem; font-family: var(--font-sans); margin-bottom: 1.5rem;">Yeni paylaşımlardan ve notlardan anında haberdar olmak için bültene katılın.</p>
-  <div id="mc_embed_shell" style="display: flex; justify-content: center; width: 100%;">
-    <iframe src="https://yavuzyildirim.substack.com/embed" width="100%" height="320" style="max-width: 480px; border: 1px solid var(--border-color); border-radius: 12px; background: #faf6f0; padding: 5px; box-shadow: 0 4px 12px rgba(0,0,0,0.02);" frameborder="0" scrolling="no"></iframe>
-  </div>
+  <form action="https://yavuzyildirim.substack.com/api/v1/free_signup" method="post" class="subscribe-form" target="_blank">
+    <input type="email" name="email" class="subscribe-input" placeholder="E-posta adresiniz..." required />
+    <input type="hidden" name="current_referring_page" value="{{ page.url | absolute_url }}" />
+    <input type="hidden" name="source" value="embed" />
+    <button type="submit" class="subscribe-button">Abone Ol</button>
+  </form>
 </div>
