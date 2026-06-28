@@ -30,6 +30,7 @@ plugins:
     - jekyll-feed
     - jekyll-seo-tag
     - jekyll-paginate
+    - jekyll-sitemap
 
 highlighter: rouge
 # paginate_path: "/page:num"
