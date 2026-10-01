@@ -4,8 +4,13 @@ layout: default
 
 <div class="home">
 
+  <header class="home-intro">
+    <h1>{{ site.tagline | escape }}</h1>
+    <p>{{ site.description | escape }}</p>
+  </header>
+
   <div class="search-container" style="margin-bottom: 2.5rem; position: relative;">
-    <input type="text" id="search-input" placeholder="Yazılarda veya etiketlerde arayın..." autocomplete="off" style="width: 100%; padding: 0.8rem 1.2rem; font-family: var(--font-sans); font-size: 1rem; border: 1px solid var(--border-color); border-radius: 8px; background: var(--card-bg); color: var(--text-color); outline: none; transition: border-color 0.2s ease;">
+    <input type="text" id="search-input" placeholder="Yazılarda veya etiketlerde arayın..." aria-label="Yazılarda veya etiketlerde arayın" autocomplete="off" style="width: 100%; padding: 0.8rem 1.2rem; font-family: var(--font-sans); font-size: 1rem; border: 1px solid var(--border-color); border-radius: 8px; background: var(--card-bg); color: var(--text-color); outline: none; transition: border-color 0.2s ease;">
     <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="position: absolute; right: 1rem; top: 50%; transform: translateY(-50%); color: var(--muted-color); pointer-events: none;">
       <circle cx="11" cy="11" r="8"></circle>
       <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
@@ -45,7 +50,7 @@ layout: default
 
           {% if post.image %}
             <a href="{{ post.url | relative_url }}" style="display: block; margin-top: 0.5rem;">
-              <img class="home-page-image" src="{{ "/assets/img/" | relative_url }}{{ post.image }}" alt="{{ post.title | escape }}">
+              <img class="home-page-image" src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}">
             </a>
           {% endif %}
         </li>

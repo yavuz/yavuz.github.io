@@ -4,12 +4,12 @@ title:  "Pürdikkat: Odaklanma Becerisini Nasıl Yitirdik, Nasıl Geri Kazanabil
 date:   2024-04-22 02:40:44 +0300
 categories: books
 excerpt: "Deep Work: Rules for Focused Success in a Distracted World"
-image: purdikkat_kitap.jpeg
+image: /assets/img/purdikkat_kitap.jpeg
 tags: books
 twittersummary: summary_large_image
 ---
 
-# Pürdikkat
+## Pürdikkat
 
 **Pürdikkat: Odaklanma Becerisini Nasıl Yitirdik, Nasıl Geri Kazanabiliriz?**
 

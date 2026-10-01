@@ -4,7 +4,7 @@ title:  "Numpy ve Pandas"
 date:   2018-12-18 00:56:00 +0300
 categories: python
 excerpt: Numpy ve Pandas Kütüphaneleri Hakkında
-image: numpy_ve_pandas1.png
+image: /assets/img/numpy_ve_pandas1.png
 tags: makineogrenmesi numpy pandas
 twittersummary: summary_large_image
 ---
@@ -128,7 +128,7 @@ df.shape
 df.describe()
 ```
 
-Ayrıntılı bilgiler için [Pandas websitesi](https://pandas.pydata.org/).
+Ayrıntılı bilgiler için [Pandas websitesi](https://pandas.pydata.org/). Bu iki kütüphane, [makine öğrenmesi](/makine-ogrenmesi/) notlarındaki örnekleri elle çalıştırmak için kullanılıyor.
 
 #### kaynaklar
 * [Python Numpy Array Tutorial (article) - DataCamp](https://www.datacamp.com/community/tutorials/python-numpy-tutorial)

@@ -4,12 +4,12 @@ title:  "Elasticsearch: Modern Arama ve Analiz Motorunun Gücü"
 date:   2025-10-25 09:00:44 +0300
 categories: database search
 excerpt: "Milyarlarca veriyi milisaniyede tarayan, full-text search ve analiz yetenekleriyle veri keşfini dönüştüren güçlü arama motoru."
-image: elasticsearch-nedir.jpg
+image: /assets/img/elasticsearch-nedir.jpg
 tags: elasticsearch search database nosql full-text analytics elk-stack
 twittersummary: summary_large_image
 ---
 
-![Cover]({{ site.images }}/elasticsearch-nedir.jpg)
+![Elasticsearch: Modern Arama ve Analiz Motorunun Gücü]({{ site.images }}/elasticsearch-nedir.jpg)
 
 ### Milyarlarca veriyi milisaniyede tarayan, aramayı sıradan bir sorgudan öteye taşıyan güçlü bir veri keşif motoru.
 
@@ -137,6 +137,8 @@ temel yapı taşlarından biri haline gelmiştir.
 Kısacası, **veriyi sadece saklamak değil, ondan içgörü üretmek istiyorsan.**
 
 > Elasticsearch, aradığın motorun ta kendisidir.
+
+Sık okunan sonucu öne almak için önüne [Redis](/redis-nedir/) koymak, olayları oraya taşımak için [RabbitMQ ve Kafka](/rabbitmq-kafka/) kullanmak yaygın bir üçlüdür.
 
 ---
 

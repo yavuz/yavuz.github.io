@@ -4,7 +4,7 @@ title:  "Destek Vektör Regresyonu ve Destek Vektör Makineleri"
 date:   2018-09-10 02:00:00 +0300
 categories: makine öğrenmesi
 excerpt: Support Vector Regression (SVR) - Support Vector Machines (SVM)
-image: support_vector_machines1.jpg
+image: /assets/img/support_vector_machines1.jpg
 tags: makineogrenmesi destekvektor
 twittersummary: summary_large_image
 ---
@@ -41,6 +41,8 @@ Destek vektör algoritmasının ilk çıkış amacının sınıflandırma(classi
 Grafik düzlemin görüldüğü üzere elimizde iki grup veri var ve biz bunları etiketleyerek sınıflandırma yapmak istiyoruz. Destek vektör makine algoritması uygulandığında ortadan geçen paralel çizgiyi elde etmiş oluruz. Bu sayede elimizdeki veriler ve gelecek veriler için sınıflandırma yapabilecek durumda oluruz. Grafikteki çizilen paralel aralığın kestiği noktalar destek noktalarıdır.
 
 SVM algoritması internette araştırıldığında başta biyoloji alanında, görüntü işlemede ve bir çok bilim dalındaki verilerin sınıflandırılmasında uygulandığı görülüyor.
+
+Bu not, [denetimli öğrenme](/denetimli-ogrenme/) altındaki regresyon ve sınıflandırma araçlarındandır.
 
 #### kaynaklar
 * [Example of linear support vector regression. - Download Scientific Diagram](https://www.researchgate.net/figure/Example-of-linear-support-vector-regression_fig1_323588842)

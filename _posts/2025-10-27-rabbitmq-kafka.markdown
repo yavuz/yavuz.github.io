@@ -4,12 +4,12 @@ title:  "RabbitMQ ve Kafka: Mesaj Kuyruğundan Veri Akışına Giden Yol"
 date:   2025-10-27 09:00:44 +0300
 categories: messaging architecture
 excerpt: "RabbitMQ ve Kafka arasındaki farklar, kullanım senaryoları ve hangisini ne zaman tercih etmen gerektiği."
-image: rabbitmq-kafka.jpg
+image: /assets/img/rabbitmq-kafka.jpg
 tags: rabbitmq kafka messaging event-streaming microservices architecture message-queue
 twittersummary: summary_large_image
 ---
 
-![Cover]({{ site.images }}/rabbitmq-kafka.jpg)
+![RabbitMQ ve Kafka: Mesaj Kuyruğundan Veri Akışına Giden Yol]({{ site.images }}/rabbitmq-kafka.jpg)
 
 ### RabbitMQ ile başlayan mesajlaşma serüveni, Kafka’nın gelişiyle veri akışının yeni çağına dönüştü. Peki bu iki sistem ne işe yarıyor, farkları neler ve hangisini seçmelisin?
 
@@ -144,5 +144,7 @@ Böylece hem geçmiş kayıt tutulur, hem de anlık işler yönetilir.
 
 Başlangıçta RabbitMQ daha kolay öğrenilir.  
 Ama sistem büyüyüp veri akışı karmaşıklaştıkça Kafka devreye girer.
+
+Daha hafif bir yayın-abone ihtiyacı için [Redis](/redis-nedir/) de yeter. Aranan metni bulmak ayrı bir problem; onun için [Elasticsearch](/elasticsearch-nedir/) notuna bak.
 
 ---

@@ -4,7 +4,7 @@ title:  "Rassal Orman Algoritması"
 date:   2018-10-01 23:00:00 +0300
 categories: makine öğrenmesi
 excerpt: Random Forest
-image: random_forest1.jpg
+image: /assets/img/random_forest1.jpg
 tags: makineogrenmesi randomforest
 twittersummary: summary_large_image
 ---
@@ -18,8 +18,8 @@ Rassal orman algoritması **topluluk öğrenmesi (ensemble learning)** metodlar�
 
 ![Random Forest]({{ site.images }}/random_forest2.jpg){: .center-image }
 
-Yukarıda görüldüğü gibi n tane üretilen ağaçların oluşturduğu ormanın ağaçlarındaki en uygun yollar izlenerek en verimli sonuçlar elde edilir. Bunu daha büyük bir ağaç algoritmasına benzetebilirsiniz.
+Yukarıda görüldüğü gibi n tane üretilen ağaçların oluşturduğu ormanın ağaçlarındaki en uygun yollar izlenerek en verimli sonuçlar elde edilir. Bunu daha büyük bir ağaç algoritmasına benzetebilirsiniz. Tek ağacın nasıl kurulduğu [karar ağaçları](/karar-agaclari/) notunda. İkisi de [denetimli öğrenme](/denetimli-ogrenme/) başlığının altında.
 
-#### kaynaklar
+## kaynaklar
 * [Ensemble Learning to Improve Machine Learning Results](https://blog.statsbot.co/ensemble-learning-d1dcd548e936)
 * [Architecture of the random forest model](https://www.researchgate.net/figure/Architecture-of-the-random-forest-model_fig1_301638643)

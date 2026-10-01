@@ -4,12 +4,12 @@ title:  "Python Flask Rehberi"
 date:   2025-10-21 12:40:44 +0300
 categories: python web
 excerpt: "Flask'e hızlı bir giriş yapmak için önemli konulara dair rehber"
-image: flask-rehberi.webp
+image: /assets/img/flask-rehberi.webp
 tags: python flask web api rest backend
 twittersummary: summary_large_image
 ---
 
-![Cover]({{ site.images }}/flask-rehberi.webp)
+![Python Flask Rehberi]({{ site.images }}/flask-rehberi.webp)
 
 
 ## 📘 Flask Nedir?
@@ -426,5 +426,5 @@ def bad_request(error):
     return jsonify({’hata’: ‘Geçersiz istek’}), 400
 ```
 
-Buraya kadar yazılanlar temel konular. Pratik yaptıkça daha iyi anlayacak ve tecrübe kazanacaksınız.
+Buraya kadar yazılanlar temel konular. Pratik yaptıkça daha iyi anlayacak ve tecrübe kazanacaksınız. Dilin kendisi için [Python’da ileri seviye kavramlar](/python-ileri-seviye/), daha kapsamlı bir framework için [Django rehberi](/django-rehberi/) var.
 

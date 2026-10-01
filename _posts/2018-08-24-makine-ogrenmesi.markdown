@@ -4,7 +4,7 @@ title:  "Makine Öğrenmesi"
 date:   2018-08-24 23:40:44 +0300
 categories: makine öğrenmesi
 excerpt: Makina öğrenmesi notları
-image: Deep_Learning_Icons_R5_PNG.jpg
+image: /assets/img/Deep_Learning_Icons_R5_PNG.jpg
 tags: makineogrenmesi
 twittersummary: summary_large_image
 ---
@@ -20,12 +20,14 @@ Bu yapay zekanın bir adımı varsayabiliriz. Ancak yapay zekanın üstüne çal
 
 Makine öğrenmesi aslında yapay zekanın bir alt dalıdır. Aşağıdaki grafikte zamana göre ilerleyişini görebilirsiniz.
 
-![]({{ site.images }}/Deep_Learning_Icons_R5_PNG.jpg){: .center-image }
+![Makine öğrenmesi, derin öğrenme ve yapay zeka ilişkisi]({{ site.images }}/Deep_Learning_Icons_R5_PNG.jpg){: .center-image }
 
 **Makine öğrenmesi temel olarak bazı grublara ayrılır.**
 
-* [Denetimli öğrenme (Supervised Learning)]({{ site.url }}/denetimli-ogrenme/)
-* [Denetimsiz öğrenme (Unsupervised Learning)]({{ site.url }}/denetimsiz-ogrenme/)
+* [Denetimli öğrenme (Supervised Learning)](/denetimli-ogrenme/)
+* [Denetimsiz öğrenme (Unsupervised Learning)](/denetimsiz-ogrenme/)
+
+Algoritma notları denetimli öğrenme yazısından devam ediyor: [regresyon](/dogrusal-coklu-dogrusal-polinomsal-regresyonlar/), [karar ağaçları](/karar-agaclari/), [rassal orman](/rassal-orman/), [destek vektör makineleri](/destek-vektor-regresyonu-ve-makineleri/) ve [naif Bayes](/naif-bayes/). Veriyle çalışmak için [NumPy ve Pandas](/numpy-ve-pandas/) notu var.
 
 **Bazı tavsiye eğitimler;**
 
@@ -37,5 +39,5 @@ Makine öğrenmesi aslında yapay zekanın bir alt dalıdır. Aşağıdaki grafi
 
 
 
-#### kaynaklar
+## kaynaklar
 * [The Difference Between AI, Machine Learning, and Deep Learning? - NVIDIA Blog](https://blogs.nvidia.com/blog/2016/07/29/whats-difference-artificial-intelligence-machine-learning-deep-learning-ai/)

@@ -4,12 +4,12 @@ title:  "Python'da İleri Seviye Kavramlar"
 date:   2025-10-20 02:40:44 +0300
 categories: python
 excerpt: "Python'da OOP, modüller, hata yönetimi ve sanal ortamlar gibi ileri seviye konuların detaylı incelemesi"
-image: python_programming.jpg
+image: /assets/img/python_programming.jpg
 tags: python programming
 twittersummary: summary_large_image
 ---
 
-# Python'da İleri Seviye Kavramlar
+## Python'da İleri Seviye Kavramlar
 
 Bu makalede Python programlama dilinin önemli ve sık kullanılan kavramlarını detaylı bir şekilde inceleyeceğiz.
 
@@ -661,4 +661,4 @@ Bu makalede Python'un temel ve ileri seviye kavramlarını inceledik:
 6. **Virtual Environment**: Proje izolasyonu ve temiz geliştirme ortamı sunar
 7. **pip ve pipx**: Paket yönetimi ve araç kurulumu için vazgeçilmez araçlar
 
-Bu kavramları öğrenmek ve uygulamak, Python'da profesyonel seviyede kod yazmanızı sağlayacaktır.
+Bu kavramları öğrenmek ve uygulamak, Python'da profesyonel seviyede kod yazmanızı sağlayacaktır. Web tarafına geçmek için [Flask rehberi](/flask-rehberi/) ve [Django rehberi](/django-rehberi/) var.

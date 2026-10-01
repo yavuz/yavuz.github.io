@@ -9,7 +9,9 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
-            {%- if site.author -%}
+            {%- if site.author.name -%}
+              <a class="u-url" rel="author" href="{{ site.author.url }}">{{ site.author.name | escape }}</a>
+            {%- elsif site.author -%}
               {{ site.author | escape }}
             {%- else -%}
               {{ site.title | escape }}

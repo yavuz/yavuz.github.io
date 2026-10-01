@@ -3,20 +3,20 @@ layout: post
 title:  "LLM Dünyasına Giriş"
 date:   2025-10-18 02:40:44 +0300
 categories: ai
-excerpt: "LLM'lerin ne olduğu, nasıl çalıştiği ve Transformer mimarisinin temellerini keşfedin"
-image: llm-dunyasina-giris-cover.jpg
+excerpt: "LLM'lerin ne olduğu, nasıl çalıştığı ve Transformer mimarisinin temellerini keşfedin"
+image: /assets/img/llm-dunyasina-giris-cover.jpg
 tags: ai llm nlp transformer
 twittersummary: summary_large_image
 ---
 
-![Cover]({{ site.images }}/llm-dunyasina-giris-cover.jpg)
+![LLM Dünyasına Giriş]({{ site.images }}/llm-dunyasina-giris-cover.jpg)
 
-### LLM Nedir?
+## LLM Nedir?
 
 LLM, yani **Large Language Model** (Büyük Dil Modeli), yapay zeka tabanlı bir sistemdir ve devasa miktarda metin verisiyle eğitilirler. Bu modeller, doğal dil işleme (NLP) görevlerinde kullanılır. Mesela, metin yazma, çeviri yapma, metni özetleme ya da sorulara cevap verme gibi birçok alanda kullanılabilirler.
 
 
-### LLM Nasıl Çalışır?
+## LLM Nasıl Çalışır?
 
 LLM’ler, temelde bir kelimeden sonra hangi kelimenin geleceğini tahmin etme prensibiyle çalışır. Milyarlarca parametreye sahip sinir ağları dildeki kalıpları, yapıları ve anlamları öğrenir. 
 Eğitim sırasında internetteki makaleler, kitaplar, web siteleri ve diğer metinlerden oluşan devasa veriyi analiz ederler.
@@ -27,7 +27,7 @@ Bu modeller **Transformer** adında özel bir mimariyi kullanır. Transformer, m
 
 
 
-#### “Attention is All You Need” Makalesi
+### “Attention is All You Need” Makalesi
 
 2017’de **Ashish Vaswani** liderliğindeki ekip, transformer modelini tanıtan makaleyi yayımladı. Ana katkıları:
 
@@ -37,7 +37,7 @@ Bu modeller **Transformer** adında özel bir mimariyi kullanır. Transformer, m
 
 
 
-### Akış
+## Akış
 
 ![Akış]({{ site.images }}/llm-dunyasina-giris-akis.jpg){: .center-image }
 
@@ -65,7 +65,7 @@ Bu hesaplamayı görselleştirmesini görmek için burayı ziyaret edebilirsiniz
 ![Token İlişkileri]({{ site.images }}/llm-dunyasina-giris-token.webp){: .center-image }
 
 
-### Transformer Katmanları
+## Transformer Katmanları
 
 Transformer iki ana kısımdan oluşur: **Encoder** ve **Decoder**  
 Encoder metni anlar, Decoder ise yeni metin üretir.
@@ -75,10 +75,10 @@ Encoder metni anlar, Decoder ise yeni metin üretir.
 - **Pozisyon Bilgisi:** Transformer kelime sırasını bilemediği için, her kelimeye bir pozisyon değeri eklenir.
 
 
-### Sonuç
+## Sonuç
 
 LLM’ler, dilin yapısını istatistiksel olarak öğrenen fakat insan gibi “anlamayan” modellerdir. Transformer mimarisiyle metinler arasındaki ilişkileri daha doğru kurabiliyorlar. Sohbet botları, çeviri sistemleri ve metin analiz araçları bu temelin üzerine kurulu.
 
 Yani, 2017’deki “Attention Is All You Need” makalesiyle başlayan olay, yapay zekanın dil alanındaki ilerlemesini şekillendirdi. LLM’ler her geçen gün daha hızlı ve daha doğal hale geliyor.
 
-Bu yazı LLM dünyasına kısa bir girişti. Yeni detaylar geldikçe makale güncellenecek. Serinin devamı için abone olmayı/takip etmeyi unutma! Sonraki yazı: ["Transformer Mimarisi"](https://yavuzyildirim.substack.com/p/llm-dunyasna-giris-transformer-mimarisi)
+Bu yazı LLM dünyasına kısa bir girişti. Mimarinin ayrıntısı [Transformer mimarisi](/llm-dunyasina-giris-transformer-mimarisi/) notunda.

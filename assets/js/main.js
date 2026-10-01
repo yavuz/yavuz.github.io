@@ -69,7 +69,6 @@ document.addEventListener('DOMContentLoaded', () => {
   let searchIndex = null;
 
   if (searchInput && searchResultsContainer && searchResultsList && defaultPostList) {
-    // Fetch search index file
     const fetchSearchIndex = async () => {
       if (searchIndex) return;
       try {
@@ -80,13 +79,22 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     };
 
-    // Load index when search input gets focus to make search instant later
-    searchInput.addEventListener('focus', fetchSearchIndex);
+    const syncQueryParam = (query) => {
+      const params = new URLSearchParams(window.location.search);
+      if (query) {
+        params.set('q', query);
+      } else {
+        params.delete('q');
+      }
+      const next = params.toString();
+      const path = window.location.pathname + (next ? `?${next}` : '') + window.location.hash;
+      window.history.replaceState(null, '', path);
+    };
 
-    // Live search on type
-    searchInput.addEventListener('input', async () => {
-      const query = searchInput.value.toLowerCase().trim();
-      
+    const runSearch = async () => {
+      const rawQuery = searchInput.value.trim();
+      const query = rawQuery.toLowerCase();
+
       if (!query) {
         searchResultsContainer.style.display = 'none';
         defaultPostList.style.display = 'block';
@@ -94,10 +102,8 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       await fetchSearchIndex();
-
       if (!searchIndex) return;
 
-      // Filter index
       const filtered = searchIndex.filter(post => {
         const titleMatch = post.title.toLowerCase().includes(query);
         const excerptMatch = post.excerpt.toLowerCase().includes(query);
@@ -105,7 +111,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return titleMatch || excerptMatch || tagsMatch;
       });
 
-      // Clear previous results
       searchResultsList.innerHTML = '';
 
       if (filtered.length > 0) {
@@ -122,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <div class="post-tags" style="margin: 0.5rem 0 1rem 0;">
                 ${post.tags.map(tag => `
                   <span class="label label-default">
-                    <a href="/tags/#${tag}-ref">#${tag}</a>
+                    <a href="/tags/#${encodeURIComponent(tag)}-ref">#${tag}</a>
                   </span>
                 `).join('')}
               </div>
@@ -151,6 +156,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
       defaultPostList.style.display = 'none';
       searchResultsContainer.style.display = 'block';
+    };
+
+    searchInput.addEventListener('focus', fetchSearchIndex);
+    searchInput.addEventListener('input', () => {
+      syncQueryParam(searchInput.value.trim());
+      runSearch();
     });
+
+    const initialQuery = new URLSearchParams(window.location.search).get('q');
+    if (initialQuery) {
+      searchInput.value = initialQuery;
+      runSearch();
+    }
   }
 });

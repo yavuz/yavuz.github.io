@@ -4,15 +4,15 @@ title:  "Laravel Rehberi"
 date:   2025-10-23 09:00:44 +0300
 categories: php web
 excerpt: "Laravel'e hızlı bir giriş yapmak için önemli konulara dair rehber"
-image: laravel-rehberi.webp
+image: /assets/img/laravel-rehberi.webp
 tags: php laravel web api rest backend mvc
 twittersummary: summary_large_image
 ---
 
-![Cover]({{ site.images }}/laravel-rehberi.webp)
+![Laravel Rehberi]({{ site.images }}/laravel-rehberi.webp)
 
 
-# Laravel 12: Başlangıç Seviyesi Pratik Rehber
+## Laravel 12: Başlangıç Seviyesi Pratik Rehber
 
 ## İçindekiler
 1. [Laravel Nedir?](#laravel-nedir)
@@ -960,3 +960,5 @@ Bu rehber size Laravel'in temellerini öğretmek için hazırlamaya çalıştım
 
 - [Laravel Resmi Dokümantasyonu](https://laravel.com/docs)
 - [Laracasts Video Eğitimleri](https://laracasts.com)
+
+Python tarafındaki karşılıklar için [Django rehberi](/django-rehberi/) ve [Flask rehberi](/flask-rehberi/) var. Önbellek ve kuyruk için [Redis](/redis-nedir/) ile [RabbitMQ ve Kafka](/rabbitmq-kafka/) notlarına bakabilirsin.

@@ -4,12 +4,12 @@ title:  "Agile Metodolojiler: Scrum ve Kanban ile Verimli Çalışma"
 date:   2025-10-25 14:00:44 +0300
 categories: project-management agile
 excerpt: "Scrum ve Kanban metodolojileriyle ekip verimliliğini artırmanın modern yolları ve pratikte nasıl uygulanacağı."
-image: agile-metodolojiler.jpg
+image: /assets/img/agile-metodolojiler.jpg
 tags: agile scrum kanban project-management software-development team productivity
 twittersummary: summary_large_image
 ---
 
-![Cover]({{ site.images }}/agile-metodolojiler.jpg)
+![Agile Metodolojiler: Scrum ve Kanban ile Verimli Çalışma]({{ site.images }}/agile-metodolojiler.jpg)
 
 ### Scrum ve Kanban ile ekiplerin verimliliğini artırmanın modern yolları
 

@@ -4,15 +4,15 @@ title:  "Django Rehberi"
 date:   2025-10-22 12:40:44 +0300
 categories: python web
 excerpt: "Django'ya hızlı bir giriş yapmak için önemli konulara dair rehber"
-image: django_rehberi.png
+image: /assets/img/django_rehberi.png
 tags: python django web api rest backend
 twittersummary: summary_large_image
 ---
 
-![Cover]({{ site.images }}/django_rehberi.png)
+![Django Rehberi]({{ site.images }}/django_rehberi.png)
 
 
-# Giriş
+## Giriş
 
 Django, Python programlama dili ile yazılmış, açık kaynaklı ve ücretsiz bir web framework’üdür.  
 “Mükemmeliyetçiler için son teslim tarihi olan web framework’ü” sloganıyla bilinen Django, hızlı geliştirme, güvenlik ve ölçeklenebilirlik sunar.
@@ -200,4 +200,4 @@ class ProductViewSet(viewsets.ModelViewSet):
 Django, hem basit projeler hem de büyük ölçekli uygulamalar için ideal bir framework’tür.  
 Hız, güvenlik ve esneklik sunar.  
 Doğru mimariyle kullanıldığında uzun vadede sürdürülebilir bir altyapı sağlar.  
-Django, geliştiricilere sadece bir framework değil, güçlü bir **ekosistem** sunar.
+Django, geliştiricilere sadece bir framework değil, güçlü bir **ekosistem** sunar. Daha küçük bir yapı için [Flask rehberi](/flask-rehberi/), dilin kendisi için [Python’da ileri seviye kavramlar](/python-ileri-seviye/) notuna bakabilirsin.

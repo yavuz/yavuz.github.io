@@ -4,7 +4,7 @@ title:  "Karar Ağaçları (Decision Tree)"
 date:   2018-09-13 02:00:00 +0300
 categories: makine öğrenmesi
 excerpt: Decision Tree Regression - Classification
-image: decision_tree1.jpg
+image: /assets/img/decision_tree1.jpg
 tags: makineogrenmesi decisiontree
 twittersummary: summary_large_image
 ---
@@ -22,6 +22,8 @@ Sınırların çizilmesinde ilk önce entropi hesapları yapılır. Daha sonra i
 
 Karar ağaçlar ismi gibi daha çok karar mekanizmalarında kullanılır. Örnek bir hastalığın belirlenmesinde, kredi kartı verilmeden kişinin profiline karar verilmesinde veya alışveriş sitelerinde kullanıcının profiline göre satın alıp almayacağını tahmin etmek gibi. Sıkça karşılaştığımız tavsiye algoritmalarında da kullanılmaktadır.
 
-### kaynaklar
+Bu not [denetimli öğrenme](/denetimli-ogrenme/) başlığının altındadır. Tek ağaç yerine çok ağaç için [rassal orman](/rassal-orman/) yazısına bak.
+
+## kaynaklar
 * [Classification and regression trees - Semantic Scholar](https://www.semanticscholar.org/paper/Classification-and-regression-trees-Loh/0ce4e33a66a354b431fd9ca0cad65f2e528c1f11)
 * [Karar Ağacı Öğrenmesi(Decision Tree Learning) – Yazılıma Giriş](https://yazilimagiris.com/2017/11/karar-agaci/)

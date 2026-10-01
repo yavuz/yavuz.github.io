@@ -311,6 +311,38 @@ html[data-theme="dark"] .moon-icon { display: none; }
   }
 }
 
+/* Home intro */
+.home-intro {
+  margin: 0 0 2.25rem;
+}
+
+.home-intro h1 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 2.15rem;
+  line-height: 1.25;
+  letter-spacing: 0.015em;
+  margin: 0 0 0.75rem;
+}
+
+.home-intro p {
+  font-family: var(--font-serif);
+  color: var(--muted-color);
+  font-size: 1.08rem;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 42rem;
+}
+
+.post-summary {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  line-height: 1.65;
+  margin: -0.5rem 0 2rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--accent-color);
+}
+
 /* Home Layout & Post List Styling */
 .post-list {
   list-style: none !important;

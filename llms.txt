@@ -1,0 +1,35 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+# {{ site.title }}
+
+> {{ site.description }}
+
+Yazar: {{ site.author.name }}, yazılımcı. Bu site Türkçe teknik notlardan oluşur. Yazılar öğrenirken tutulmuş rehberlerdir. Alıntı yaparken yazı başlığını, yazarı ve URL'yi kaynak gösterin.
+
+Konular: Python, PHP, Laravel, Django, Flask, Redis, Elasticsearch, RabbitMQ, Kafka, makine öğrenmesi, büyük dil modelleri (LLM) ve Transformer mimarisi.
+
+## Yazılar
+
+{% for post in site.posts -%}
+- [{{ post.title | strip }}]({{ post.url | absolute_url }}): {{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}
+{% endfor %}
+
+## Sayfalar
+
+- [Hakkımda]({{ "/hakkimda/" | absolute_url }}): Yavuz Yıldırım kimdir ve bu sitede neler yazar.
+- [Etiketler]({{ "/tags/" | absolute_url }}): Yazıların konu etiketleri.
+- [Gizlilik politikası]({{ "/gizlilik-politikasi.html" | absolute_url }}): Kişisel verilerin işlenmesi.
+
+## Kimlik
+
+- Ad: Yavuz Yıldırım
+- Blog: {{ site.url }}/
+- Hakkımda: {{ site.author.url }}
+- Kişisel site: https://yavuzyildirim.com/
+- GitHub: https://github.com/yavuz
+- X: https://x.com/yavuzyildirim
+- Bülten: https://yavuzyildirim.substack.com/
+- Ürün: https://listln.com/

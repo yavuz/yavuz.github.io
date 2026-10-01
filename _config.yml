@@ -13,13 +13,32 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: yavuz blog
+title: Yavuz Yıldırım
+tagline: Yazılım, makine öğrenmesi ve LLM notları
 #email: yavuz@yapps.co
-description: öğrenirken aldığım notlar
+description: "Yavuz Yıldırım'ın Türkçe teknik notları: Python, Laravel, Django, Redis, Elasticsearch, makine öğrenmesi ve büyük dil modelleri."
 #baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://yavuz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+lang: tr
+locale: tr_TR
+author:
+  name: Yavuz Yıldırım
+  url: https://yavuz.github.io/hakkimda/
+  twitter: yavuzyildirim
+twitter:
+  username: yavuzyildirim
+  card: summary_large_image
+social:
+  name: Yavuz Yıldırım
+  links:
+    - https://yavuzyildirim.com/
+    - https://github.com/yavuz
+    - https://x.com/yavuzyildirim
+    - https://yavuzyildirim.substack.com/
+    - https://listln.com/user/yavuz
+seo_paginator_message: "Sayfa %<current>s / %<total>s: "
 twitter_username: yavuzyildirim
-github_username:  yavuz
+github_username: yavuz
 listln_username: yavuz
 substack_username: yavuzyildirim
 
@@ -40,6 +59,18 @@ images: '/assets/img'
 permalink: /:title/
 paginate: 10
 paginate_path: "/page:num/"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      lang: tr
+  - scope:
+      path: ""
+      type: pages
+    values:
+      lang: tr
 github: https://github.com/yavuz
 show_excerpts: true # set to true to show excerpts on the homepage
 disqus:

@@ -4,7 +4,7 @@ title:  "Naif Bayes Sınıflandırması"
 date:   2018-10-15 01:00:00 +0300
 categories: makine öğrenmesi
 excerpt: Naive Bayes Classifier
-image: naive_bayes_classifier1.jpg
+image: /assets/img/naive_bayes_classifier1.jpg
 tags: makineogrenmesi naivebayes
 twittersummary: summary_large_image
 ---
@@ -81,7 +81,9 @@ Satın almama ihtimalinin sonucu = 0.112 * 0.4 = 0.0448
 ```
 Buradaki değerler tamamen rastgele olduğu için sonuçta birbirine çok yakın denk geldi. Burada 24 yaşında erkek bir öğrencinin bizim kursumuzu alma ihtimali alma ihtimalinden düşük çıkıyor. Eğer tam tersi olsaydı ona bir indirim gösterip almasını sağlayabilirdik.
 
-#### kaynaklar
+Bu sınıflandırıcı, [denetimli öğrenme](/denetimli-ogrenme/) notundaki algoritmalardan biridir.
+
+## kaynaklar
 * [How To Implement Naive Bayes From Scratch in Python](https://machinelearningmastery.com/naive-bayes-classifier-scratch-python/)
 * [Her sakallıyı baban sanma: Temel oranı ihmal yanılgısı](https://yalansavar.org/2016/08/05/her-sakalliyi-baban-sanma-temel-orani-ihmal-yanilgisi/)
 * [Naif Bayes Sınıflandırıcısı (Naive Bayes)](http://bilgisayarkavramlari.sadievrenseker.com/2013/02/08/naif-bayes-siniflandiricisi-naive-bayes/)

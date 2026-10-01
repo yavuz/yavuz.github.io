@@ -1,6 +1,7 @@
 ---
 layout: null
 permalink: /assets/js/search-data.json
+sitemap: false
 ---
 [
   {%- for post in site.posts -%}

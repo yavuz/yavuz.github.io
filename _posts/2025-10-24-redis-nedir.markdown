@@ -4,12 +4,12 @@ title:  "Redis Nedir? Hızlı, Esnek ve Çok Yönlü Bir Veri Deposu"
 date:   2025-10-24 09:00:44 +0300
 categories: database cache
 excerpt: "Redis'in ne olduğunu, nasıl çalıştığını ve modern uygulamalarda neden vazgeçilmez olduğunu keşfedin."
-image: redis-nedir.jpg
+image: /assets/img/redis-nedir.jpg
 tags: redis database cache nosql in-memory key-value performance
 twittersummary: summary_large_image
 ---
 
-![Cover]({{ site.images }}/redis-nedir.jpg)
+![Redis Nedir? Hızlı, Esnek ve Çok Yönlü Bir Veri Deposu]({{ site.images }}/redis-nedir.jpg)
 
 ### Önbelleklemeden Çok Daha Fazlası: Modern Uygulamalarda Redis'in Yeri
 
@@ -91,4 +91,4 @@ Verileri RAM’de tutması sayesinde, **milisaniyenin altında okuma ve yazma h�
 
 Redis bir “önbellek”ten çok daha fazlasıdır. Geliştiricinin araç kutusundaki en keskin ve esnek araçlardan biridir. Doğru yerde kullanıldığında, uygulama performansını katlayabilir ve mimariyi basitleştirebilir.
 
-Eğer uygulamanızda hız kritikse, gerçek zamanlı veriye ihtiyacınız varsa veya veritabanı yükünü azaltmak istiyorsanız, Redis’e mutlaka şans vermelisiniz.
+Eğer uygulamanızda hız kritikse, gerçek zamanlı veriye ihtiyacınız varsa veya veritabanı yükünü azaltmak istiyorsanız, Redis’e mutlaka şans vermelisiniz. Metin araması için [Elasticsearch](/elasticsearch-nedir/), iş kuyruğu ve olay akışı için [RabbitMQ ve Kafka](/rabbitmq-kafka/) notları bu resmin diğer parçaları.

@@ -2,7 +2,7 @@
 layout: default
 published: true
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post h-entry" itemscope itemtype="https://schema.org/BlogPosting">
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
@@ -11,12 +11,23 @@ published: true
         {%- assign date_format = site.minima.date_format | default: "%d %b %Y" -%}
         {{ page.date | date: date_format }}
       </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- assign author_name = site.author.name -%}
+      {%- if page.author.name -%}
+        {%- assign author_name = page.author.name -%}
+      {%- elsif page.author -%}
+        {%- assign author_name = page.author -%}
+      {%- endif -%}
+      {%- if author_name -%}
+        • <span itemprop="author" itemscope itemtype="https://schema.org/Person"><a class="p-author h-card" itemprop="url" href="{{ site.author.url }}"><span itemprop="name">{{ author_name | escape }}</span></a></span>
       {%- endif -%}
       • ⏱️ {% assign words = content | number_of_words %}{% if words < 180 %}1{% else %}{{ words | divided_by: 180 | plus: 1 }}{% endif %} dk okuma
     </p>
+    <meta itemprop="dateModified" content="{{ page.last_modified_at | default: page.date | date_to_xmlschema }}">
   </header>
+
+  {%- if page.excerpt -%}
+    <p class="post-summary" itemprop="description">{{ page.excerpt | strip_html | strip_newlines | escape }}</p>
+  {%- endif -%}
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
@@ -25,26 +36,31 @@ published: true
   </div>
 
   {%- assign maxRelated = 3 -%}
-  {%- assign minCommonTags = 1 -%}
   {%- assign maxRelatedCounter = 0 -%}
+  {%- assign picked_urls = "|" -%}
   {%- capture related_posts_html -%}
-    {%- for post in site.posts -%}
-      {%- if post.url != page.url -%}
-        {%- assign commonTags = 0 -%}
-        {%- for tag in post.tags -%}
-          {%- if page.tags contains tag -%}
-            {%- assign commonTags = commonTags | plus: 1 -%}
+    {%- for minCommonTags in (1..3) reversed -%}
+      {%- if maxRelatedCounter >= maxRelated -%}{%- break -%}{%- endif -%}
+      {%- for post in site.posts -%}
+        {%- if maxRelatedCounter >= maxRelated -%}{%- break -%}{%- endif -%}
+        {%- assign post_key = post.url | prepend: "|" | append: "|" -%}
+        {%- unless post.url == page.url or picked_urls contains post_key -%}
+          {%- assign commonTags = 0 -%}
+          {%- for tag in post.tags -%}
+            {%- if page.tags contains tag -%}
+              {%- assign commonTags = commonTags | plus: 1 -%}
+            {%- endif -%}
+          {%- endfor -%}
+          {%- if commonTags >= minCommonTags -%}
+            <li class="related-item">
+              <span class="related-date">{{ post.date | date: "%d %b %Y" }}</span>
+              <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </li>
+            {%- assign picked_urls = picked_urls | append: post.url | append: "|" -%}
+            {%- assign maxRelatedCounter = maxRelatedCounter | plus: 1 -%}
           {%- endif -%}
-        {%- endfor -%}
-        {%- if commonTags >= minCommonTags -%}
-          <li class="related-item">
-            <span class="related-date">{{ post.date | date: "%d %b %Y" }}</span>
-            <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          </li>
-          {%- assign maxRelatedCounter = maxRelatedCounter | plus: 1 -%}
-          {%- if maxRelatedCounter >= maxRelated -%}{%- break -%}{%- endif -%}
-        {%- endif -%}
-      {%- endif -%}
+        {%- endunless -%}
+      {%- endfor -%}
     {%- endfor -%}
   {%- endcapture -%}
 

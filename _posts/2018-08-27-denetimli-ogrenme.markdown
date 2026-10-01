@@ -4,10 +4,10 @@ title:  "Denetimli öğrenme (Supervised learning)"
 date:   2018-08-27 00:04:00 +0300
 categories: makine öğrenmesi
 excerpt: Regresyon (Regression) ve Sınıflandırma (Classification)
-image: classification_regression1.jpg
+image: /assets/img/classification_regression1.jpg
 tags: makineogrenmesi denetimliogrenme
 ---
-Makine öğrenmesi daha önce bahsettiğimiz gibi elimizdeki veriyi kullanarak anlamlı bir veri çıkarmak diyebiliriz.
+[Makine öğrenmesi](/makine-ogrenmesi/) daha önce bahsettiğimiz gibi elimizdeki veriyi kullanarak anlamlı bir veri çıkarmak diyebiliriz.
 
 Veri setinin içinde sonuçlarda var diyelim. Bu verilere göre oluşturduğumuz modele göre de yeni verilerin tahmin ediliyorsak bu öğrenme biçimine denetimli öğrenme denir.
 
@@ -24,7 +24,7 @@ Kısaca örneklemek gerekirse elimizde böyle bir veri olduğunu varsayalım;
 | 28  	| 172 	|  62  	|   kadın  	|
 | 44  	| 166 	|  58  	|   kadın  	|
 
-Bunlar tamamen rastgele yazdığım veriler. Elimizdeki yaş, boy, kilo verilerine göre cinsiyet tahmini yapabilmesini istiyoruz diyelim. Karar ağacı(decision tree) algoritmasını kullandığımızı varsayalım. Böyle bir veri setini makineye öğrenmesi için verdiğimizde genel itibari ile veriyi iki parçaya bölmemiz gerekiyor(partitioning).
+Bunlar tamamen rastgele yazdığım veriler. Elimizdeki yaş, boy, kilo verilerine göre cinsiyet tahmini yapabilmesini istiyoruz diyelim. [Karar ağacı](/karar-agaclari/) algoritmasını kullandığımızı varsayalım. Böyle bir veri setini makineye öğrenmesi için verdiğimizde genel itibari ile veriyi iki parçaya bölmemiz gerekiyor(partitioning).
 
 * **Eğitim Verisi:** Makinenin öğrenmesi için verinin bir kısmını al ve bunları karar ağacı algoritmasına göre incele. Daha sonra bir tahmin de bulunması gerekirse bu veriler üstünden tahmin yürütmüş olacaktır.
 
@@ -34,31 +34,29 @@ Denetimli öğrenme problemleri ikiye ayrılır;
 1. Regresyon (Regression)
 2. Sınıflandırma (Classification)
 
-![]({{ site.images }}/classification_regression1.jpg){: .center-image }
+![Sınıflandırma ve regresyon ayrımı]({{ site.images }}/classification_regression1.jpg){: .center-image }
 
-### Regresyon (Regression)
+## Regresyon (Regression)
 Sayısal çözümleme yapılır. Sayısal değerler verilir ve bu sayısal değerler arasındaki ilişkiye göre bir matematiksel fonksiyon oluşturulur. Daha sonra gelen verilere göre sonuç tahmin edilir. Regresyon eldeki verileri görselleştirdiğimizde verilerin arasındaki ilişkinin eğrisini çizmek olarak da düşünebiliriz.
 
-![]({{ site.images }}/regression1.jpg){: .center-image }
+![Regresyon örneği]({{ site.images }}/regression1.jpg){: .center-image }
 
 Örnekler;
 * Bir evin büyüklüğü ve lokasyonu verildiğinde fiyatının tahmini.
 * Bir firmanın reklam giderleri satışları nasıl etkilediği
 
 Bazı regresyon algoritmaları;
-* Doğrusal Regresyon (Linear Regression)
-* Çoklu doğrusal Regresyon (Multilinear Regression)
-* Polinomsal Regresyon (Polynominal Regression)
+* [Doğrusal, çoklu doğrusal ve polinomsal regresyon](/dogrusal-coklu-dogrusal-polinomsal-regresyonlar/)
 * Lojistik Regresyon (Logistic Regression)
-* Karar Ağacı Regresyonu (Decision Tree Regression)
-* Rastgele Ormanlar Regresyonu (Random Forest Regression)
-* Destek Vektör Regresyonu (Support Vector Regression)
+* [Karar ağacı regresyonu](/karar-agaclari/)
+* [Rassal orman regresyonu](/rassal-orman/)
+* [Destek vektör regresyonu](/destek-vektor-regresyonu-ve-makineleri/)
 
 
-### Sınıflandırma (Classification)
+## Sınıflandırma (Classification)
 Verilerin algoritmalar sayesinde sınıflandırması veya kategorilere ayrılması işlemine denir.
 
-![]({{ site.images }}/classification1.jpg){: .center-image }
+![Sınıflandırma örneği]({{ site.images }}/classification1.jpg){: .center-image }
 
 Örnekler;
 * Elma, portakalları rengi ve büyüklüğüne göre ayırt edilmesi
@@ -66,11 +64,11 @@ Verilerin algoritmalar sayesinde sınıflandırması veya kategorilere ayrılmas
 * Bir mailin spam veya spam olmadığını çözümlemek
 
 Bazı sınıflandırma algoritmaları;
-* Naif Bayes Sınıflandırılması (Naive Bayes Classifier)
-* Kara Ağacı Sınıflandırılması (Decision Tree Classifier)
+* [Naif Bayes sınıflandırması](/naif-bayes/)
+* [Karar ağacı sınıflandırması](/karar-agaclari/)
 * KNN / K - En Yakın Komşu (K-nearest neighborhood)
-* Destekçi Vektör Makinesi (Support Vector Machine)
+* [Destek vektör makineleri](/destek-vektor-regresyonu-ve-makineleri/)
 
-#### kaynaklar
+### kaynaklar
 * [Makine Öğrenmesi Eğlencelidir! - Medium](https://medium.com/deep-learning-turkiye/makine-%C3%B6%C4%9Frenmesi-e%C4%9Flencelidir-b9d50aad3a62)
 * [Denetimli Öğrenme (Supervised Learning) - Veri Bilimcisi](https://veribilimcisi.com/2017/07/12/denetimli-ogrenme/)
